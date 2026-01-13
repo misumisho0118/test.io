@@ -3,7 +3,7 @@
  */
 // CONFIGURATION - USER MUST UPDATE THIS
 // Replace with your actual Web App URL after deployment
-const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbxp5gcLvPcYgFE8aU1uZuWYZaqsMyHce-OqWfcyGlmKmnVMCYDJKVH-en8akg3_0x0Y/exec'; 
+const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbx6p6jLILk1EgP8g5DdToNs8MZYwNNwbsXDOJrcLZm4L_ZRO1S1C_YFordrxrSJQMYi/exec'; 
 // DOM Elements
 document.addEventListener('DOMContentLoaded', () => {
     // Determine which page we are on
@@ -26,7 +26,7 @@ function initRegister() {
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         
-        if (GAS_API_URL.includes('https://script.google.com/macros/s/AKfycbxp5gcLvPcYgFE8aU1uZuWYZaqsMyHce-OqWfcyGlmKmnVMCYDJKVH-en8akg3_0x0Y/exec')) {
+        if (GAS_API_URL.includes('https://script.google.com/macros/s/AKfycbx6p6jLILk1EgP8g5DdToNs8MZYwNNwbsXDOJrcLZm4L_ZRO1S1C_YFordrxrSJQMYi/exec')) {
             alert('Error: Please update the GAS_API_URL in script.js');
             return;
         }
@@ -87,7 +87,7 @@ async function initDashboard() {
     // UI State: Loading
     loading.classList.remove('hidden');
     try {
-        if (GAS_API_URL.includes('https://script.google.com/macros/s/AKfycbxp5gcLvPcYgFE8aU1uZuWYZaqsMyHce-OqWfcyGlmKmnVMCYDJKVH-en8akg3_0x0Y/exec')) {
+        if (GAS_API_URL.includes('https://script.google.com/macros/s/AKfycbx6p6jLILk1EgP8g5DdToNs8MZYwNNwbsXDOJrcLZm4L_ZRO1S1C_YFordrxrSJQMYi/exec')) {
             throw new Error('Please configure GAS_API_URL in script.js');
         }
         const response = await fetch(GAS_API_URL + '?action=getHistory');
