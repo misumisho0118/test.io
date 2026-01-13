@@ -52,7 +52,7 @@ function initRegister() {
             const result = await response.json();
             if (result.status === 'success') {
                 loading.classList.add('hidden'); // Hide spinner so message is visible
-                showMessage(`✅ 正常に記録されました`, 'success');
+                showMessage(`✅ 膣内射精感謝(ありがとうございます)❤`, 'success');
                 setTimeout(() => {
                     window.location.href = 'index.html';
                 }, 3000);
