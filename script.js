@@ -3,7 +3,7 @@
  */
 // CONFIGURATION - USER MUST UPDATE THIS
 // Replace with your actual Web App URL after deployment
-const GAS_API_URL = 'AKfycbx6p6jLILk1EgP8g5DdToNs8MZYwNNwbsXDOJrcLZm4L_ZRO1S1C_YFordrxrSJQMYi';
+const GAS_API_URL = 'https://script.google.com/macros/s/AKfycbyEXV35DwzIHv332K9hBjWVw0mLiEmAecW_L3mh6puZLZ-we3REhoO2gre_MLbSSqPl/exec';
 // DOM Elements
 document.addEventListener('DOMContentLoaded', () => {
     // Determine which page we are on
